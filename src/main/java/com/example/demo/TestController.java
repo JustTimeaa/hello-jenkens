@@ -17,7 +17,7 @@ public class TestController {
 
 
     @GetMapping(value = "/test1")
-    @ApiOperation("cesui1")
+    @ApiOperation("cesui22222")
     public String test1(){
         return "测试 Jenkis";
     }
