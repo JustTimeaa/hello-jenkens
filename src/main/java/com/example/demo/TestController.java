@@ -14,4 +14,11 @@ public class TestController {
     public String test(){
         return "测试 Jenkis";
     }
+
+
+    @GetMapping(value = "/test1")
+    @ApiOperation("cesui1")
+    public String test1(){
+        return "测试 Jenkis";
+    }
 }
